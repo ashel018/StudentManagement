@@ -1,11 +1,11 @@
-# 🎓 Student Management System
+#  Student Management System
 ### Java Swing + JDBC + MySQL
 
 A fully-featured desktop application for managing student records with a clean, modern UI.
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Details |
 |---|---|
@@ -17,7 +17,7 @@ A fully-featured desktop application for managing student records with a clean, 
 
 ---
 
-## 🛠️ Prerequisites
+##  Prerequisites
 
 | Tool | Version | Notes |
 |---|---|---|
@@ -27,7 +27,7 @@ A fully-featured desktop application for managing student records with a clean, 
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### Step 1 – Import the Database
 
@@ -53,10 +53,10 @@ This creates:
 ### Step 2 – Add the JDBC Driver
 
 1. Download **MySQL Connector/J** from the official site:
-   👉 https://dev.mysql.com/downloads/connector/j/
+    https://dev.mysql.com/downloads/connector/j/
 
    Or Maven Central (jar only):
-   👉 https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0.jar
+    https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0.jar
 
 2. Rename the downloaded file to `mysql-connector-j.jar`
 
@@ -112,7 +112,7 @@ java -cp "out;lib/mysql-connector-j.jar" com.student.ui.MainFrame
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 StudentManagement/
@@ -142,7 +142,7 @@ StudentManagement/
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 ```sql
 CREATE TABLE students (
@@ -165,7 +165,7 @@ CREATE TABLE students (
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 | Problem | Fix |
 |---|---|
