@@ -1,0 +1,1 @@
+PLACE mysql-connector-j.jar HERE. See README.md for download link.
